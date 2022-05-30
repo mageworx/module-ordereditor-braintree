@@ -14,6 +14,9 @@
                         <label>Enable BrainTree Payment Reauthorization</label>
                         <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                         <comment>If this setting is enabled, all changes made to the order will attempt to be processed using the payment details stored in the vault.</comment>
+                        <depends>
+                            <field id="sales_processor">keep_untouched</field>
+                        </depends>
                     </field>
                 </group>
             </group>
