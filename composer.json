@@ -3,7 +3,7 @@
     "description": "Order Editor Braintree payments reauthorization Plugin",
     "require": {
         "mageworx/module-ordereditorbase": ">=2.11.4",
-        "paypal/module-braintree-core": ">=4.2.4"
+        "paypal/module-braintree-core": ">=4.2"
     },
     "type": "magento2-module",
     "version": "1.0.0",
